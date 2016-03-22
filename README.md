@@ -5,8 +5,13 @@ This game was made following a tutorial on CodeAcademy. It is still very incompl
 This game currently runs in IDLE and features a text-based grid.
 
 *** TO DO ***
- - Game does not end once the turn limit is exceeded, but DOES when guesses are correct. 
- - player's input is reflected on the playfield as an indexed number therefor when entering "1" the second row is actually selected.
- - break down program into seperate functions.
+ - break down program into seperate functions. this should be first priority.
+ - create a two-part ship - is currently only one intersect 
  - Want to add a two player mode.
+ - add different types of missiles, add ability to move own ship's location.
+ - build UI with tkinter.
+ 
+*** Fixed ***
+- game now ends after turns are exceeded
+- game also now places guess exactly as represented on the grid
 
